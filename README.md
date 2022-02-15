@@ -5,12 +5,12 @@ It is implemented using the concept of hashing.
  
 *txt* folder contains different text files used as input.
  
-**Sample Input (dissimilar words in *italics*)** 
+**Sample Input (dissimilar words in *italics*)**  
 *File 1* 
-This time I * *really* * liked your * *intent* * abc.
+This time I * *really* * liked your * *intent* * abc.  
  
-*File 2* 
-This time I * *real* * liked your * *inte* * abc. 
+*File 2*  
+This time I * *real* * liked your * *inte* * abc.  
  
 **Sample Output** 
 Root of file 1: 8c43a85d
