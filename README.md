@@ -2,17 +2,17 @@
 
 Merkle tree implementation to identify whether the contents in two text files are similar or not, & if different output the dissimilar words in the file. It can be used to check any instance of tampering to the file under review.
 It is implemented using the concept of hashing.
-
-* *txt* * folder contains different text files used as input.
-
-**Sample Input (dissimilar words in italics)**
-* *File 1* *
+ 
+*txt* folder contains different text files used as input.
+ 
+**Sample Input (dissimilar words in *italics*)** 
+*File 1* 
 This time I * *really* * liked your * *intent* * abc.
-
-* *File 2* *
-This time I * *real* * liked your * *inte* * abc.
-
-** Sample Output**
+ 
+*File 2* 
+This time I * *real* * liked your * *inte* * abc. 
+ 
+**Sample Output** 
 Root of file 1: 8c43a85d
 Root of file 2: 380f49ce
 
